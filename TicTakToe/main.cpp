@@ -5,7 +5,7 @@ int main() {
 	
 	TicTakToeGame game;
 	bool playAgain{ true };
-	
+
 	while (playAgain)
 	{
 		game.play();
@@ -13,8 +13,5 @@ int main() {
 		std::cin >> playAgain;
 		game.closeGame();
 	}
-	
-
-	
 	return 0;
 }
